@@ -26,7 +26,7 @@ router.post('/', auth, async (req, res) => {
 
 })
 
-router.get('/', auth, async (req, res) => {
+router.get('/', async (req, res) => {
 
   try {
 
