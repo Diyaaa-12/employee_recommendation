@@ -1,4 +1,4 @@
 const API =
-"http://localhost:5000/api"
+"https://employee-recommendation.onrender.com/api"
 
 export default API
