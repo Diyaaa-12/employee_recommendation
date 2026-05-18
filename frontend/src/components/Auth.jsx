@@ -42,13 +42,25 @@ function Auth({ setToken }) {
 
       <div style={card}>
 
-        <h1 style={{ marginBottom: "10px" }}>
-          🤖 AI Employee Analytics
-        </h1>
+        <h1 style={{
+  fontSize: '60px',
+  fontWeight: 'bold',
+  color: '#111',
+  textAlign: 'center',
+  lineHeight: '1.1',
+  marginBottom: '10px'
+}}>
+  🤖 AI Employee Analytics
+</h1>
 
-        <p style={{ color: "gray", marginBottom: "25px" }}>
-          Smart Employee Management System
-        </p>
+        <p style={{
+  textAlign: 'center',
+  color: '#666',
+  marginBottom: '30px',
+  fontSize: '20px'
+}}>
+  Smart Employee Management System
+</p>
 
         <div style={tabContainer}>
           <button
